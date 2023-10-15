@@ -16,7 +16,7 @@ cap.set(4, height)
 '''
 ##########################################################
 
-imgOriginal = cv2.imread('6.jpeg')
+imgOriginal = cv2.imread('resources/6.jpeg')
 pickle_in = open('model_trained.p', 'rb')
 model = pickle.load(pickle_in)
 

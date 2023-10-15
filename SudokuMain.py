@@ -12,7 +12,7 @@ from utils import *
 import SudokuSolver
 
 ######################## SETTING ###########################
-pathImage = 'Sudoku.jpg'
+pathImage = 'resources/Sudoku.jpg'
 heightImage = 450
 widthImage = 450
 model = initializePredictionModel()  # LOAD  THE CNN MODEL
